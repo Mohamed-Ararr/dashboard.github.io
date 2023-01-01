@@ -192,6 +192,11 @@ body {
   margin: 0;
 }
 
+.side-bar .links li a:hover,
+.side-bar .links li a.active {
+  background-color: red;
+ }
+
 *:focus {
   outline: none;
 }
